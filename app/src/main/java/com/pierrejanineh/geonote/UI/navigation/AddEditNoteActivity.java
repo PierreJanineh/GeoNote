@@ -93,6 +93,9 @@ public class AddEditNoteActivity extends AppCompatActivity {
     private void switchBetweenAddEdit() {
         String uid = getIntent().getStringExtra(NOTE_UID);
         if (uid != null) {
+
+            Objects.requireNonNull(getSupportActionBar()).setTitle(R.string.edit_note);
+
             Note note = Arrays.stream(firebase.getNotes().getValue()).filter(note1 -> uid.equals(note1.getUid())).findFirst().get();
 
             Calendar cal = Calendar.getInstance();
