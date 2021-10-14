@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">GeoNote</string>
+    <string name="title_list">List</string>
+    <string name="title_map">Map</string>
+
+    <!-- LoginLogoutActivity -->
+    <string name="login">Login</string>
+    <string name="logout">Log out</string>
+    <string name="signup">Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="switch_to_signup">Haven\'t got an account yet? Click here to Sign up.</string>
+    <string name="switch_to_login">Got and account already? Click here to Login.</string>
+
+    <string name="failed_login">Login has Failed, %1$s</string>
+    <string name="failed_signup">Sign-up has Failed, %1$s</string>
+
+    <!-- NavigationMainActivity -->
+    <string name="welcome_msg">Hello %1$s, and welcome to your GeoNotes.</string>
+
+    <!-- AddEditNoteActivity -->
+    <string name="add_date">Date</string>
+    <string name="add_title">Title</string>
+    <string name="add_body">Body</string>
+    <string name="add_note">Add note</string>
+    <string name="save_note">Save note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="location_is_needed">Location permissions are required to add/update notes.</string>
+    <string name="note_addition_success">Added note successfully.</string>
+    <string name="note_deletion_success">Deleted note successfully.</string>
+    <string name="note_update_success">Updated note successfully.</string>
+
+    <!-- ListFragment -->
+    <string name="null_notes_msg">No Notes have been added yet.</string>
+
+    <!-- MapFragment -->
+    <!--    <string name="welcome_msg">Welcome </string>-->
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209117382516",
+    "project_id": "com-pierrejanineh-geonote",
+    "storage_bucket": "com-pierrejanineh-geonote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209117382516:android:ff7b9f5171ca62e91ace21",
+        "android_client_info": {
+          "package_name": "com.pierrejanineh.geonote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209117382516-4fliqiacdk43v8dsgbbd77iud8jkffd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7tjVTWv99gzCgGH_RHXXU6w18DvrJ1Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209117382516-4fliqiacdk43v8dsgbbd77iud8jkffd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

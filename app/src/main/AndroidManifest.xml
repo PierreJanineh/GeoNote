@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pierrejanineh.geonote">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GeoNote"
+        android:allowBackup="true"
+        android:fullBackupOnly="true">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCJ6ncbvMLr3QqXspTNueOE6qt5yNiau3E" />
+        <activity
+            android:name=".UI.navigation.AddEditNoteActivity"
+            android:label="@string/add_note"
+            android:exported="true"/>
+        <activity
+            android:name=".UI.navigation.NavigationMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UI.LoginLogoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UI.BaseActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
